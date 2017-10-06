@@ -54,14 +54,30 @@
 		77696AC01F87C707002DC478 /* FirstSwiftApp */ = {
 			isa = PBXGroup;
 			children = (
-				77696AC11F87C707002DC478 /* AppDelegate.swift */,
-				77696AC31F87C707002DC478 /* ViewController.swift */,
+				77696AD41F87D989002DC478 /* Controller */,
 				77696AC51F87C707002DC478 /* Main.storyboard */,
 				77696AC81F87C707002DC478 /* Assets.xcassets */,
 				77696ACA1F87C707002DC478 /* LaunchScreen.storyboard */,
-				77696ACD1F87C707002DC478 /* Info.plist */,
+				77696AD31F87D92E002DC478 /* Settings */,
 			);
 			path = FirstSwiftApp;
+			sourceTree = "<group>";
+		};
+		77696AD31F87D92E002DC478 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				77696ACD1F87C707002DC478 /* Info.plist */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		77696AD41F87D989002DC478 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77696AC11F87C707002DC478 /* AppDelegate.swift */,
+				77696AC31F87C707002DC478 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstSwiftApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstSwiftApp/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.FirstSwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FirstSwiftApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FirstSwiftApp/Settings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CTEC.FirstSwiftApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
